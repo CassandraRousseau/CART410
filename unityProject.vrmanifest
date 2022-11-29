@@ -2,13 +2,13 @@
   "source": "Unity",
   "applications": [
     {
-      "app_key": "application.generated.unity.scenes_from_74_years.exe",
+      "app_key": "application.generated.unity.test02.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "E:\\Cassandra\\university\\art history\\CART410\\VR_Research_Creation\\Scenes_from_74_years\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "E:\\Cassandra\\university\\art history\\VR_CART410\\Test02\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
-          "name": "Scenes_from_74_years [Testing]"
+          "name": "Test02 [Testing]"
         }
       }
     }

@@ -92,6 +92,9 @@ namespace Valve.VR.InteractionSystem
         public bool isHovering { get; protected set; }
         public bool wasHovering { get; protected set; }
 
+        public GameObject UIObject;
+        public GameObject dialogueObject;
+       
 
         private void Awake()
         {
@@ -100,6 +103,10 @@ namespace Valve.VR.InteractionSystem
 
         protected virtual void Start()
         {
+            UIObject.SetActive(false);
+            dialogueObject.SetActive(false);
+        
+
             if (highlightMat == null)
 #if UNITY_URP
                 highlightMat = (Material)Resources.Load("SteamVR_HoverHighlight_URP", typeof(Material));
@@ -257,6 +264,9 @@ namespace Valve.VR.InteractionSystem
             {
                 CreateHighlightRenderers();
                 UpdateHighlightRenderers();
+                UIObject.SetActive(true);
+                dialogueObject.SetActive(true);
+          
             }
         }
 
@@ -273,6 +283,7 @@ namespace Valve.VR.InteractionSystem
             if (hoveringHands.Count == 0)
             {
                 isHovering = false;
+                UIObject.SetActive(false);
 
                 if (highlightOnHover && highlightHolder != null)
                     Destroy(highlightHolder);
