@@ -1701,8 +1701,8 @@ MonoBehaviour:
     your experience with the researcher
 
 
-    You can now remove the headset, thank
-    you for playtesting this prototype!'
+    You can remove the headset, thank you
+    for playtesting this prototype!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eefe03be2d9c0be408335d45373d8866, type: 2}
   m_sharedMaterial: {fileID: 7377678308236523979, guid: eefe03be2d9c0be408335d45373d8866, type: 2}

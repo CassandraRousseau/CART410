@@ -662,7 +662,7 @@ MonoBehaviour:
     - 'You: Yes please'
     - 'Taxi Driver: Over here, let me take your bag'
     - "You: That\u2019s kind, thank you"
-    - 'Taxi Driver: Where are you going to?'
+    - 'Taxi Driver: Where you going to?'
     - ' You: Home'
     - "Taxi Driver: Where\u2019s that?"
     - 'You: Ramat Aviv'
@@ -670,7 +670,7 @@ MonoBehaviour:
       today \u2013 there was a bomb scare in town and everyone\u2019s acting crazy"
     - "You: I don\u2019t care how long it takes \u2013 I just want to get back to
       my house"
-    - 'Taxi Driver: Oh all right then, come on, before I change my mind. '
+    - 'Taxi Driver: Oh all right then, come on, before I change my mind'
 --- !u!1001 &131304162
 PrefabInstance:
   m_ObjectHideFlags: 0
